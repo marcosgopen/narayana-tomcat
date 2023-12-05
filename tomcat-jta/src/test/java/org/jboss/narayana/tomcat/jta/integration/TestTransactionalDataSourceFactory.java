@@ -13,7 +13,7 @@ import org.junit.Test;
 import javax.naming.Context;
 import javax.naming.Reference;
 import javax.naming.StringRefAddr;
-import javax.transaction.TransactionManager;
+import jakarta.transaction.TransactionManager;
 import java.sql.Connection;
 import java.util.Map;
 import java.util.Properties;

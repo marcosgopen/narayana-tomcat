@@ -18,9 +18,10 @@ import com.arjuna.ats.internal.jta.recovery.arjunacore.XARecoveryModule;
 import com.arjuna.ats.jdbc.TransactionalDriver;
 import com.arjuna.ats.jta.common.jtaPropertyManager;
 
-import javax.servlet.ServletContextEvent;
-import javax.servlet.ServletContextListener;
-import javax.servlet.annotation.WebListener;
+import jakarta.servlet.ServletContextEvent;
+import jakarta.servlet.ServletContextListener;
+import jakarta.servlet.annotation.WebListener;
+
 import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.util.Arrays;

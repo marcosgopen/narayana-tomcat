@@ -52,7 +52,7 @@ pushd narayana/tomcat
 ## 1. H2, embedded database
 Run the TS:
 ```bash
-mvn integration-test -Parq-tomcat -Dtomcat.user=arquillian -Dtomcat.pass=arquillian
+mvn integration-test -Parq-tomcat -Dtest.db.type=h2 -Dtomcat.user=arquillian -Dtomcat.pass=arquillian
 ```
 See logs, including Tomcat ones:
 ```

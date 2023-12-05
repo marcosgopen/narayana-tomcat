@@ -15,10 +15,12 @@ import java.util.logging.Logger;
 import javax.naming.InitialContext;
 import javax.naming.NamingException;
 import javax.sql.XADataSource;
-import javax.transaction.TransactionManager;
-import javax.transaction.TransactionSynchronizationRegistry;
 
 import com.arjuna.ats.jta.common.jtaPropertyManager;
+
+import jakarta.transaction.TransactionManager;
+import jakarta.transaction.TransactionSynchronizationRegistry;
+
 import org.apache.tomcat.dbcp.dbcp2.managed.BasicManagedDataSource;
 import org.jboss.narayana.tomcat.jta.integration.utils.PoolingDataSourceWrapper;
 import org.jboss.narayana.tomcat.jta.internal.PoolingDataSourceFactory;
